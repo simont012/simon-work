@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An impressive and modern web page with interactive features">
+    <meta name="keywords" content="HTML, CSS, JavaScript, modern web design">
+    <meta name="author" content="Your Name">
+    <title>Impressive Web Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #333;
+        }
+        header {
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: 700;
+        }
+        nav a:hover {
+            color: #4facfe;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            color: #fff;
+        }
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 25px;
+            background: #fff;
+            color: #4facfe;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #4facfe;
+            color: #fff;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 50px;
+        }
+        .feature {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .feature h3 {
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+            margin-top: 50px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Brand</h1>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to Our Impressive Web Page</h2>
+        <p>Discover the best features and services crafted just for you.</p>
+        <button class="btn">Get Started</button>
+    </section>
+
+    <section id="features" class="features">
+        <div class="feature">
+            <h3>Feature 1</h3>
+            <p>Experience cutting-edge technology with our solutions.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 2</h3>
+            <p>We prioritize user experience and seamless integration.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 3</h3>
+            <p>Enjoy 24/7 customer support and unparalleled service.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Brand. All rights reserved.</p>
+    </footer>
+</body>
+</html>
